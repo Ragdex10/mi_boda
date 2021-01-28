@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.App {
+  text-align: center;
+  
+}
+.pagina{
+ width: 85%;
+ height: 75%;
+ margin: 0 auto;
+}
+ .portada{
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100vh;
+  width: 100vh;
+  box-sizing: border-box;
+ }
+ .nombres-novios{
+   font-family:  'Monsieur La Doulaise';
+   font-size: 90px;
+ }
+
+  .header {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mensaje-principal{
+  text-align: center;
+}
+
+.iconos{
+  color: #dd969c ;
+}
+
+.titulos{
+  color:#6C4675;
+}
+
+
+@media (max-width: 576.98px) { 
+     .portada{
+       height: 100vw;
+       width: 100vw;
+       background-size: 100% 100% !important;
+     }
+     .header {
+       height: 50vh;
+       justify-content: start;
+     }
+     .nombres-novios{
+       font-size: 65px;
+     }
+
+     .mensaje-principal{
+      font-size: 1em;
+    }
+    
+    
+  }
+
+  @media (max-width: 991.98px) { 
+    .portada{
+      height: 100vw;
+      width: 100vw;
+      background-size: 100% 100% !important;
+    }
+    .header {
+      height: 50vh;
+      justify-content: start;
+    }
+    .nombres-novios{
+      font-size: 65px;
+    }
+
+    .mensaje-principal{
+     font-size: 1em;
+   }
+   
+   
+ }
